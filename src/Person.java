@@ -8,7 +8,6 @@ public class Person {
         this.surname = surname;
         this.age = age;
     }
-
     public String getName() {
         return name;
     }
@@ -29,10 +28,9 @@ public class Person {
     }
     @Override
     public String toString() {
-        return "Person{"
-                + "name='" + name + '\''
-                + ", surname=" + surname
+        return
+                "surname=" + surname
                 + ", age=" + age
-                + '}';
+                + '}' + '\n';
     }
 }
