@@ -9,9 +9,9 @@ public class Main {
         ));
 
         Collections.sort(person, new PersonComparator());
-        for (Person person1 : person) {
+        for (Person person1 : person) {  //вывод отсортированного списка
             System.out.println(person1);
         }
-        System.out.println(person);
+        System.out.println(person); //ещё раз вывожу отсортированный список
     }
 }
