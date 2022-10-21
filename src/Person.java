@@ -28,6 +28,6 @@ public class Person {
     }
     @Override
     public String toString() {
-        return surname + ", age=" + age + '\n';
+        return surname + ", age=" + age;
     }
 }

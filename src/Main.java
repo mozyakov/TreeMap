@@ -9,7 +9,9 @@ public class Main {
         ));
 
         Collections.sort(person, new PersonComparator());
-
-        System.out.println(person);
+        for (Person person1 : person) {
+            System.out.println(person1);
+        }
+        //System.out.println(person);
     }
 }
